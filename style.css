@@ -3,7 +3,8 @@ h1 {
 }
 
 body {
-    text-align:center;
-    justify-content: center;
-    background-image:url("back.png");
+    text-align: center;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
