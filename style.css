@@ -21,7 +21,12 @@ img{
   justify-content: flex-start;
 }
 
+button{
+  transition: all 0.1s ease-in-out;
+  background-color: #0c1c14;
+}
+
+
 button:hover {
-  background-color: #2980b9;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
