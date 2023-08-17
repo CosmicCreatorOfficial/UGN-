@@ -16,6 +16,6 @@ img{
   width: 250px;
 }
 
-button {
-  display:inline;
+div{
+  display: block;
 }
