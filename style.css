@@ -1,3 +1,8 @@
 h1 {
     font-family: impact, serif;
 }
+
+body {
+    text-align:center;
+    justify-content: center;
+}
