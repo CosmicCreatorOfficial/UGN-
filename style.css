@@ -5,4 +5,5 @@ h1 {
 body {
     text-align:center;
     justify-content: center;
+    background-image:url(back.png);
 }
