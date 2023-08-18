@@ -44,4 +44,15 @@ p{
 }
 
 
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Flex items will be arranged horizontally */
+  flex-wrap: wrap; /* Items will wrap to the next line if necessary */
+  justify-content: space-between; /* Items are evenly spaced along the main axis */
+  align-items: center; /* Items are centered along the cross axis */
+  align-content: flex-start; /* Lines are aligned to the start of the container */
+}
+
+
+
 
