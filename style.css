@@ -8,7 +8,9 @@ body {
     text-align: center;
     background-image: url("back.png");
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: cover;
+    width: 665px;
+    height: 873px;
 }
 
 img{
@@ -27,6 +29,7 @@ button{
   background-color: transparent;
   border-radius: 25px;
   margin-left: auto;
+  margin-right: auto;
 }
 
 
