@@ -9,8 +9,6 @@ body {
     background-image: url("back.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 665px;
-    height: 873px;
 }
 
 img{
@@ -22,6 +20,8 @@ img{
  div{
   display: flex;
   justify-content: flex-start;
+  width: 665px;
+  height: 873px;
 }
 
 button{
@@ -29,7 +29,7 @@ button{
   background-color: transparent;
   border-radius: 25px;
   margin-left: auto;
-  margin-right: auto;
+  margin: right 20px;
 }
 
 
