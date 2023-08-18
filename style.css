@@ -45,13 +45,14 @@ p{
 
 
 .flex-container {
-  display: flex;
-  flex-direction: column; /* Flex items will be arranged vertically */
-  flex-wrap: wrap; /* Items will wrap to the next line if necessary */
-  justify-content: flex-start; /* Items are aligned to the start of the main axis */
-  align-items: flex-start; /* Items are aligned to the start of the cross axis */
-  align-content: space-between; /* Lines are evenly spaced along the cross axis */
-}
+    display: flex;
+    flex-direction: column; /* Flex items will be arranged vertically */
+    flex-wrap: wrap; /* Items will wrap to the next line if necessary */
+    justify-content: flex-start; /* Items are aligned to the start of the main axis */
+    align-items: flex-start; /* Items are aligned to the start of the cross axis */
+    align-content: space-between; /* Lines are evenly spaced along the cross axis */
+  }
+
 
 
 #flappy{
