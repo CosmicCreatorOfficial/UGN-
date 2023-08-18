@@ -51,7 +51,11 @@ p{
   justify-content: space-between; /* Items are evenly spaced along the main axis */
   align-items: center; /* Items are centered along the cross axis */
   align-content: flex-start; /* Lines are aligned to the start of the container */
+  justify-content: flex-start; /* Items are aligned to the start of the main axis */
+  align-items: flex-start; /* Items are aligned to the start of the cross axis */
+  align-content: space-between; /* Lines are evenly spaced along the cross axis */
 }
+
 
 #flappy{
   margin-left: 20px;
