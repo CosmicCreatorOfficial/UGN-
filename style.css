@@ -8,7 +8,7 @@ body {
     text-align: center;
     background-image: url("back.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: fill;
 }
 
 img{
@@ -24,8 +24,9 @@ img{
 
 button{
   transition: all 0.25s ease-in-out;
-  background-color: #b4c4b3;
+  background-color: transparent;
   border-radius: 25px;
+  margin-left: auto;
 }
 
 
@@ -39,23 +40,5 @@ p{
   font-size: 30px;
 }
 
-#btn1{
-  margin-left: 20px;
-  background-color: transparent;
-}
 
-#bt2{
-  margin-left: 20px;
-  background-color: transparent;
-}
-
-#bt3{
-  margin-left: 20px;
-  background-color: transparent;
-}
-
-#bt4{
-  margin-left: 20px;
-  background-color: transparent;
-}
 
