@@ -12,8 +12,8 @@ body {
 }
 
 img{
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border-radius: 25px;
 }
 
@@ -36,7 +36,7 @@ button:hover {
 p{
   font-family: impact, serif;
   color:#0c1c14;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #btn1{
