@@ -6,9 +6,7 @@ h1 {
 
 body {
     text-align: center;
-    background-image: url("back.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #667869;
 }
 
 img{
