@@ -50,7 +50,7 @@ p{
 .flex-container {
   display: flex;
   flex-direction: row; /* Flex items will be arranged horizontally */
-  flex-wrap: wrap; /* Items will wrap to the next line if necessary */
+  flex-wrap:wrap; /* Items will wrap to the next line if necessary */
   justify-content: space-between; /* Items are evenly spaced along the main axis */
   align-items: center; /* Items are centered along the cross axis */
   align-content: flex-start; /* Lines are aligned to the start of the container */
@@ -102,7 +102,8 @@ a{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  transform: scale(1.1);
+  border-color:ivory;
 }
 
 /* Dropdown content (hidden by default) */
@@ -118,7 +119,7 @@ a{
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  background: transparent;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -127,7 +128,7 @@ a{
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: transparent;
 }
 
 /* Show the dropdown menu on hover */
@@ -135,6 +136,6 @@ a{
   display: block;
 }
 
-
-
-
+.dropdown-content {
+  right: 0;
+}
