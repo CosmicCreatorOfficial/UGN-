@@ -6,7 +6,7 @@ h1 {
 
 body {
     text-align: center;
-    background: pong.png;
+    background: url("pong.png");
   }
 
 img{
