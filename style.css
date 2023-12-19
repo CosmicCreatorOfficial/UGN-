@@ -32,7 +32,7 @@ button{
   height: 400px;
   width: 300px;
   margin-top: 20px;
-  filter: blur(0.25px);
+  filter: blur(1px);
 }
 
 
