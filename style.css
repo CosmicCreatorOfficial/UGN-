@@ -33,7 +33,7 @@ img{
   height: 400px;
   width: 300px;
   margin-top: 20px;
-  filter: blur(1px);
+  filter: blur(0.7px);
 }
 
 
