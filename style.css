@@ -1,138 +1,143 @@
 h1 {
-    font-family: impact, serif;
-    color:#0c1c14;
-  font-size: 1.5cm;
+  font-family: impact, serif;
+  color:#0c1c14;
+font-size: 1.5cm;
 }
 
 body {
-    text-align: center;
-    background: url("pong.png");
-    background-size:contain;
-    background-position: center;
-    background-repeat:repeat-y;
-  }
-
-img{
-  height: 275px;
-  width: 275px;
-  border-radius: 25px;
+  text-align: center;
+  background: url("pong.png");
+  background-size:contain;
+  background-position: center;
+  background-repeat:repeat-y;
 }
 
- div{
-  display: flex;
-  justify-content: flex-start;
-  margin:auto;
+img{
+height: 275px;
+width: 275px;
+border-radius: 25px;
+}
+
+div{
+display: flex;
+justify-content: flex-start;
+margin:auto;
 }
 
 .games {
-  transition: all 0.25s ease-in-out;
-  background-color: transparent;
-  border-radius: 25px;
-  margin-left: auto;
-  margin-right:auto;
-  height: 400px;
-  width: 300px;
-  margin-top: 20px;
-  filter: blur(1px);
+transition: all 0.25s ease-in-out;
+background-color: transparent;
+border-radius: 25px;
+margin-left: auto;
+margin-right:auto;
+height: 400px;
+width: 300px;
+margin-top: 20px;
+filter: blur(0.7px);
 }
 
 
 button:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
 p{
-  font-family: impact, serif;
-  color:#0c1c14;
-  font-size: 30px;
+font-family: impact, serif;
+color:#0c1c14;
+font-size: 30px;
 }
 
 
 .flex-container {
-  display: flex;
-  flex-direction: row; /* Flex items will be arranged horizontally */
-  flex-wrap:wrap; /* Items will wrap to the next line if necessary */
-  justify-content: space-between; /* Items are evenly spaced along the main axis */
-  align-items: center; /* Items are centered along the cross axis */
-  align-content: flex-start; /* Lines are aligned to the start of the container */
-  }
+display: flex;
+flex-direction: row; /* Flex items will be arranged horizontally */
+flex-wrap:wrap; /* Items will wrap to the next line if necessary */
+justify-content: space-between; /* Items are evenly spaced along the main axis */
+align-items: center; /* Items are centered along the cross axis */
+align-content: flex-start; /* Lines are aligned to the start of the container */
+}
 
 
 u{
-  color: #0c1c14;
+color: #0c1c14;
 }
 
 a{
-  color: transparent;
+color: transparent;
 }
 
 /* Navbar container */
 .navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+overflow: hidden;
+background-color: #333;
+font-family: Arial;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: right;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+float: right;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 /* The dropdown container */
 .dropdown {
-  float: right;
-  overflow: hidden;
+float: right;
+overflow: hidden;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+float:right;
 }
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover {
-  transform: scale(1.1);
-  border-color:ivory;
+transform: scale(1.1);
+border-color:ivory;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: transparent;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: transparent;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  float: none;
-  background: transparent;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+float: none;
+background: transparent;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: transparent;
+background-color: transparent;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+display: block;
+}
+
+li{
+float:right;
 }
