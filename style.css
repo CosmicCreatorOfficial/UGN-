@@ -9,7 +9,7 @@ body {
     background: url("pong.png");
     background-size:contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
   }
 
 img{
