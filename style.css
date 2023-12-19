@@ -137,3 +137,7 @@ a{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+li{
+  float:right;
+}
