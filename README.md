@@ -1,4 +1,4 @@
-# GamingXHUB
+# UGN🔥🎮
 
 A platform with all the unblocked games you can think of!!!
 
