@@ -33,7 +33,7 @@ img{
   height: 400px;
   width: 300px;
   margin-top: 20px;
-  filter: blur(1px);
+  filter: blur(0.7px);
 }
 
 
@@ -99,6 +99,7 @@ a{
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  float:right;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -135,4 +136,8 @@ a{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+li{
+  float:right;
 }
