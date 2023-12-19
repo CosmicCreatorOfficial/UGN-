@@ -99,6 +99,7 @@ a{
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  float:right;
 }
 
 /* Add a red background color to navbar links on hover */
