@@ -24,7 +24,7 @@ img{
   margin:auto;
 }
 
-button{
+.games {
   transition: all 0.25s ease-in-out;
   background-color: transparent;
   border-radius: 25px;
