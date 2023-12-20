@@ -136,3 +136,7 @@ background-color: transparent;
 .dropdown:hover .dropdown-content {
 display: block;
 }
+
+li {
+  float:right;
+}
